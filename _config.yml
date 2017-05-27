@@ -1,0 +1,34 @@
+# Site settings
+title: "Gabriel Caixeta"
+description: "Personal page and blog"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gabrielcaixeta.github.io" # the base hostname & protocol for your site
+
+# User settings
+username: Gabriel Caixeta
+user_description: Anon Developer at Lorem Ipsum Dolor
+user_title: caixetovisk
+email: caixetasilva at hotmail dot com
+github_username:  https://github.com/gabrielcaixeta
+disqus_username: lorem_ipsum
+gplus_username:  lorem_ipsum
+twitter_username: lorem_ipsum
+
+
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'presentations/plugin/mathjax']
+paginate: 4
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+# markdown: redcarpet
+# redcarpet:
+#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+highlighter: rouge
+gems: ["jekyll-paginate"]
+
+collections:
+ wiki:
+  output: true
+  permalink: /wiki/:path/
