@@ -5,7 +5,9 @@ tags: linux, network, ip
 language: Portuguese
 ---
 
-O '''ip''' usado em Linux para visualizar e gerenciar as tabelas de roteamento, interface de rede, túneis e outros aparelhos associados com a rede. Esta página não tem qualquer ambição de ser um manual completo. Ele serve como meu caderno sobre o tema.
+> **Observação:** Esta página não tem qualquer ambição de ser um manual completo. Ele serve como meu caderno sobre o tema.
+
+O '''IP''' é usado em Linux para visualizar e gerenciar as tabelas de roteamento, interface de rede, túneis e outros aparelhos associados com a rede.
 
 ## Ativar/desativar o suporte para IPv6 ##
 
@@ -35,7 +37,7 @@ Exemplo:
 
 ## Roteamento ##
 
-A tabela de mento roteamento podem ser listado usando:
+A tabela de roteamento pode ser listado usando:
 
 ```bash
  $ ip route show
