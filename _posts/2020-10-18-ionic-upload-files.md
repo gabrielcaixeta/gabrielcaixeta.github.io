@@ -129,20 +129,33 @@ export class HomePage implements OnInit, AfterViewInit {
   }
 }
 ```
+
 E no arquivo de template o codigo abaixo:
 ```
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title> Blank </ion-title>
   </ion-toolbar>
-</ion-header><ion-content>
-  <div class="ion-padding">
-  <ion-row>
-    <ion-col><ion-button color="primary" (click)="takePicture()">Take Picture</ion-button></ion-col>
-  </ion-row>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-row>
+      <ion-col
+        ><ion-button color="primary" (click)="takePicture()"
+          >Take Picture</ion-button
+        ></ion-col
+      >
+    </ion-row>
+  </div>
 </ion-content>
+
 ```
 
 No servidor php crie dois arquivos:
