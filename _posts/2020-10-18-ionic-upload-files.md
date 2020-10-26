@@ -15,8 +15,8 @@ Após finalizada a criação do projeto, instala-se os plugins necessários
 
 ```
 ionic cordova plugin add cordova-plugin-camera
-npm install @ionic-native/cameraionic
-cordova plugin add cordova-plugin-file
+npm install @ionic-native/camera
+ionic cordova plugin add cordova-plugin-file
 npm install @ionic-native/file
 ```
 Em seguida, importamos a Camera e File dentro dos módulo do app e injeta-os na seção do provider. O seu arquivo app module deve estar assim:
