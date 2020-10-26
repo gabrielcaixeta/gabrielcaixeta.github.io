@@ -3,7 +3,8 @@ title: Ionic 4 - camera nativa e upload de imagem
 layout: post
 tags: mobile, ionic, upload, file, angular
 ---
-# Ionic 4 - camera nativa e upload de imagem
+Exemplo de envio de upload para um servidor web
+
 Criando um projeto em branco
 
 ```
